@@ -1,4 +1,4 @@
-:root {
+ /* :root {
     /* Background colors */
     --main-background-color: #ffffff;
     --secondary-background-color: #f5f4fa;
@@ -17,17 +17,17 @@
     /* Others */
     --header-line-color: #ececec;
     --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+}  */
 
-body {
+/* body {
     background-color: var(--main-background-color);
     color: var(--main-text-color);
     font-family: var(--main-font-family);
     font-size: 14px;
     letter-spacing: 0.03em;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -35,9 +35,9 @@ h5,
 h6,
 p {
     margin: 0;
-}
+} */
 
-img {
+/* img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -48,9 +48,9 @@ button {
     border: none;
     border-radius: 4px;
 
-}
+} */
 
-.section {
+/* .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -59,9 +59,9 @@ button {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-}
+} */
 
-.list {
+/* .list {
     list-style: none;
     padding-left: 0;
     margin: 0;
@@ -69,11 +69,11 @@ button {
 
 .link {
     text-decoration: none;
-}
+} */
 
 /* Шапка */
 
-.header {
+/* .header {
     border-bottom: 1px solid var(--header-line-color);
 }
 
@@ -85,10 +85,10 @@ button {
 }
 
 .nav-list {
-    gap: 50px;
-}
+    gap: 50px; */
+/* } */
 
-.logo {
+/* .logo {
     display: block;
     margin-right: 93px;
     padding-top: 24px;
@@ -105,9 +105,9 @@ button {
 
 .logo-accent {
     color: var(--accent-color);
-}
+} */
 
-.contacts-list {
+/* .contacts-list {
     display: flex;
     gap: 50px;
     margin-left: auto;
@@ -178,11 +178,11 @@ button {
 
 .contacts-icon {
     fill: currentColor;
-}
+} */
 
 /* Секція Герой */
 
-.hero {
+/* .hero {
     padding: 200px 0;
     background-color: var(--accent-background-color);
     text-align: center;
@@ -209,9 +209,9 @@ button {
     line-height: calc(60 / 44);
     letter-spacing: 0.06em;
     text-transform: uppercase;
-}
+} */
 
-.btn {
+/* .btn {
 
     padding-left: 32px;
     padding-right: 32px;
@@ -236,11 +236,11 @@ button {
 .btn:hover,
 .btn:focus {
     background-color: #188CE8;
-}
+} */
 
 /* Модальне вікно */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -295,7 +295,6 @@ button {
 .modal-btn:focus {
     color: var(--accent-color);
     border-color: var(--accent-color);
-    /* box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25)); */
 }
 
 .is-hidden {
@@ -310,7 +309,7 @@ button {
 
 /* Форма замовлення */
 
-.order-form {
+/* .order-form {
     padding: 40px;
 }
 
@@ -449,11 +448,11 @@ textarea::placeholder {
 
 .order-form-link {
     color: var(--accent-color);
-}
+} */ 
 
 /* Особливості */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -464,9 +463,9 @@ textarea::placeholder {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-}
+} */
 
-.features-container {
+/* .features-container {
     display: flex;
     gap: 30px;
 }
@@ -506,23 +505,23 @@ textarea::placeholder {
     width: 270px;
     height: 120px;
     background-color: var(--secondary-background-color);
-}
+} */
 
 /* Чим ми займаємося */
 
-.work-section {
+/* .work-section {
     padding-bottom: 94px;
 }
 
-.work-container,
-.team-container,
-.clients-container {
+.work-section__container,
+.team__container,
+.clients-list {
     display: flex;
     gap: 30px;
 }
 
-.work-title,
-.team-title,
+.work-section__title,
+.team__title,
 .clients-title {
     margin-bottom: 50px;
 
@@ -532,7 +531,7 @@ textarea::placeholder {
     color: var(--secondary-text-color);
 }
 
-.work-name {
+.work-section__name {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -549,23 +548,23 @@ textarea::placeholder {
 
 }
 
-.work-thumb {
+.work-section__thumb {
     position: relative;
-}
+} */
 
 /* Наша команда */
 
-.team {
+/* .team {
     background-color: var(--secondary-background-color);
 }
 
-.team-list {
+.team__list {
     background-color: var(--main-background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-member {
+.team__member {
     margin-bottom: 10px;
 
     color: var(--secondary-text-color);
@@ -575,13 +574,13 @@ textarea::placeholder {
     text-align: center;
 }
 
-.team-text {
+.team__text {
     font-size: 16px;
     line-height: calc(19 / 16);
     text-align: center;
 }
 
-.team-data {
+.team__data {
     padding-top: 30px;
     padding-left: 10px;
     padding-right: 10px;
@@ -594,7 +593,7 @@ textarea::placeholder {
     gap: 10px;
 }
 
-.socials-link {
+.socials-list__link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -607,19 +606,19 @@ textarea::placeholder {
     transition: color var(--transition), background-color var(--transition);
 }
 
-.socials-link:hover,
-.socials-link:focus {
+.socials-list__link:hover,
+.socials-list__link:focus {
     color: var(--main-background-color);
     background-color: var(--accent-color);
 }
 
-.socials-icon {
+.socials-list__icon {
     fill: currentColor;
-}
+} */
 
 /* Клієнти */
 
-.clients-link {
+/* .clients-list__link {
     display: flex;
     width: 170px;
     height: 90px;
@@ -632,19 +631,19 @@ textarea::placeholder {
     transition: color var(--transition), border-color var(--transition);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients-list__link:hover,
+.clients-list__link:focus {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
 
-.clients-icon {
+.clients-list__icon {
     fill: currentColor;
-}
+} */
 
 /* Футер */
 
-.footer {
+/* .footer {
     background-color: var(--accent-background-color);
     padding: 60px 0;
 }
@@ -718,15 +717,15 @@ textarea::placeholder {
     gap: 10px;
 }
 
-.footer-socials .socials-link {
+.footer-socials .socials-list__link {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--main-background-color);
 
     transition: background-color var(--transition);
 }
 
-.footer-socials .socials-link:hover,
-.footer-socials .socials-link:focus {
+.footer-socials .socials-list__link:hover,
+.footer-socials .socials-list__link:focus {
     background-color: var(--accent-color);
 }
 
@@ -776,11 +775,11 @@ textarea::placeholder {
 
 .footer-btn-icon {
     fill: currentColor;
-}
+} */
 
 /* Наші проєкти */
 
-.btn-filter {
+/* .btn-filter {
     padding-left: 22px;
     padding-right: 22px;
     padding-top: 6px;
@@ -896,4 +895,4 @@ textarea::placeholder {
 .projects-link:hover .projects-overlay,
 .projects-link:focus .projects-overlay {
     transform: translateY(0);
-}
+} */
